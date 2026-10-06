@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data and model files (not redistributable; see README.md and models/data/README.md)
+/data/*
+!/data/manifest_canonical.csv
+!/data/language_ids_final.csv
+models/data/FLAME2020/
+models/data/FLAME_masks/*.pkl
+models/data/*.npy
+models/data/*.npz
+
+# Generated outputs
+/results/figures/
+/results/language_ids/
+/results/sigma_sweep_results.csv

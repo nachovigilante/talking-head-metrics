@@ -1,0 +1,42 @@
+[project]
+name = "talking-head-metrics"
+version = "0.1.0"
+description = "Metrics for speech-driven 3D facial animation on FLAME meshes: LVE, FDD, MOD, BAS and PBAS."
+requires-python = ">=3.12"
+dependencies = [
+    "chumpy>=0.70",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.6",
+    "numpy>=2.2.6",
+    "pandas>=2.3.2",
+    "praat-parselmouth>=0.4.7",
+    "scipy>=1.16.2",
+    "statsmodels>=0.14.6",
+    "torch>=2.8.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+# scripts/detect_language.py and the word timings of make_prosodic_events_figure.py
+transcription = [
+    "faster-whisper>=1.2.1",
+]
+# denoise_canonical.py; dasheng-denoiser itself is installed from
+# https://github.com/xiaomi-research/dasheng-denoiser
+denoise = [
+    "torchaudio>=2.8.0",
+]
+dev = [
+    "ruff>=0.13.1",
+]
+
+[tool.uv.extra-build-dependencies]
+chumpy = ["pip"]
+
+[tool.ruff]
+line-length = 110
+extend-exclude = ["models/flame.py", "models/lbs.py"]  # third-party FLAME code
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "E701", "E702"]

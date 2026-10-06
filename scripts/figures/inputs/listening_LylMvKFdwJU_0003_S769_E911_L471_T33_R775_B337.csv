@@ -1,0 +1,48 @@
+signal,time_s,value,word,judgment,note
+pitch_accent,2.56,266.93,Backdoors,emphasis,
+pitch_accent,3.76,241.32,leave,emphasis,
+pitch_accent,4.40,227.83,America,emphasis,
+pitch_accent,5.52,224.21,less,emphasis,
+pitch_accent,7.64,215.71,Encryption.,emphasis,"on ""Enc"""
+pitch_accent,7.88,573.80,Encryption.,emphasis,"the voice rises on ""crypt"""
+pitch_accent,8.12,319.87,Encryption.,emphasis,"end of the word, also fine"
+prominence,2.52,0.65,Backdoors,emphasis,
+prominence,3.00,0.72,Backdoors,emphasis,
+prominence,3.40,0.63,will,emphasis,
+prominence,3.72,0.62,leave,emphasis,
+prominence,4.40,0.63,America,emphasis,me
+prominence,4.84,0.61,America,emphasis,ca
+prominence,5.48,0.62,less,emphasis,
+prominence,6.00,0.60,"safe,",emphasis,
+prominence,6.44,0.58,folks.,emphasis,
+prominence,7.88,0.76,Encryption.,emphasis,crypt
+prominence,8.40,0.58,Encryption.,emphasis,tion
+energy,2.52,0.18,Backdoors,emphasis,
+energy,3.04,0.24,Backdoors,emphasis,
+energy,3.40,0.19,will,emphasis,
+energy,3.72,0.17,leave,emphasis,
+energy,4.16,0.16,America,emphasis,a
+energy,4.40,0.18,America,emphasis,me
+energy,4.84,0.18,America,emphasis,ca
+energy,5.48,0.17,less,emphasis,
+energy,6.00,0.18,"safe,",emphasis,
+energy,6.44,0.19,folks.,emphasis,
+energy,7.72,0.09,Encryption.,emphasis,en
+energy,8.04,0.15,Encryption.,emphasis,crypt
+energy,8.44,0.15,Encryption.,emphasis,tion
+onset,2.48,21.42,Backdoors,emphasis,
+onset,2.80,5.58,Backdoors,emphasis,
+onset,3.04,1.02,Backdoors,doubtful,"final ""s"" of the word, like a breath"
+onset,3.40,7.97,will,emphasis,
+onset,3.68,8.35,leave,emphasis,
+onset,3.96,0.46,leave,doubtful,end of the word
+onset,4.16,9.13,America,emphasis,a
+onset,4.36,12.04,America,emphasis,me
+onset,4.80,16.79,America,emphasis,ca
+onset,5.48,9.41,less,emphasis,
+onset,5.96,9.38,"safe,",emphasis,
+onset,6.44,12.94,folks.,emphasis,fo
+onset,6.68,9.19,folks.,emphasis,ks
+onset,7.68,16.63,Encryption.,emphasis,en
+onset,7.88,9.57,Encryption.,emphasis,crypt
+onset,8.24,4.59,Encryption.,emphasis,tion

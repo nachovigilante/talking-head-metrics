@@ -1,0 +1,54 @@
+signal,time_s,value,word,judgment,note
+pitch_accent,0.88,182.34,But,emphasis,
+pitch_accent,1.44,178.88,the,emphasis,
+pitch_accent,1.84,220.83,more,emphasis,
+pitch_accent,2.52,201.17,saw,emphasis,
+pitch_accent,3.32,163.98,heard,emphasis,
+pitch_accent,4.72,189.38,messier,emphasis,
+pitch_accent,5.56,189.10,"got,",emphasis,
+pitch_accent,7.16,225.87,thought,emphasis,
+pitch_accent,7.84,136.82,tired,emphasis,
+prominence,0.20,0.47,?,emphasis,"end of the previous word, cut at the start of the clip"
+prominence,0.92,0.74,But,emphasis,
+prominence,1.84,0.92,more,emphasis,
+prominence,2.56,0.88,saw,emphasis,
+prominence,3.40,0.77,heard,emphasis,
+prominence,4.72,0.82,messier,emphasis,
+prominence,5.00,0.70,messier,emphasis,
+prominence,5.56,0.82,"got,",emphasis,
+prominence,7.16,0.93,thought,emphasis,
+prominence,7.84,0.56,tired,emphasis,
+energy,0.92,0.13,But,emphasis,
+energy,1.52,0.12,the,emphasis,
+energy,1.88,0.17,more,emphasis,
+energy,2.56,0.21,saw,emphasis,
+energy,2.76,0.16,saw,doubtful,"no audible change within ""saw"""
+energy,3.40,0.17,heard,emphasis,
+energy,4.72,0.16,messier,emphasis,
+energy,5.00,0.14,messier,emphasis,
+energy,5.52,0.18,"got,",emphasis,
+energy,7.16,0.17,thought,emphasis,
+energy,7.52,0.11,get,emphasis,
+energy,7.80,0.12,tired,emphasis,
+onset,0.12,4.66,?,emphasis,"end of the previous word, cut at the start of the clip"
+onset,0.88,30.31,But,emphasis,
+onset,1.48,20.63,the,emphasis,
+onset,1.68,0.54,more,emphasis,
+onset,2.08,2.80,I,emphasis,
+onset,2.32,0.57,saw,doubtful,"initial fricative of ""saw"""
+onset,2.52,2.63,saw,emphasis,aw
+onset,2.80,4.64,and,emphasis,
+onset,3.16,10.30,heard,emphasis,he
+onset,3.36,0.90,heard,emphasis,ar
+onset,3.56,1.01,heard,emphasis,D
+onset,3.80,6.64,and,emphasis,
+onset,4.52,27.48,the,emphasis,
+onset,4.72,13.83,messier,emphasis,
+onset,5.12,1.01,messier,emphasis,ER
+onset,5.48,17.20,"got,",emphasis,
+onset,5.96,5.46,"got,",emphasis,T
+onset,6.96,21.74,I,emphasis,
+onset,7.16,7.72,thought,emphasis,
+onset,7.36,1.09,she'd,emphasis,
+onset,7.68,10.65,tired,emphasis,
+onset,8.08,3.15,tired,emphasis,
